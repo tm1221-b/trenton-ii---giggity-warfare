@@ -1,0 +1,35 @@
+{
+    "name": "Trenton II - Giggity Warfare ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "controller": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "darts": "*",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "animation": "*",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.3.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only",
+    "assetPack": false
+}
